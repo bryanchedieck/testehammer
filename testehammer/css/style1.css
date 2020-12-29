@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #0000001f;
+
+}
+header {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f9fb;
+}
+.title {
+    width: 100%;
+    height: 200px;
+}
+.title h1,h2 {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+ h2 span {
+    color:#004861;
+}
+
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+    width: 30%;
+    height: 309px;
+    margin-left: 5%;
+    font-size: 1.5em;
+    float: left;
+}
+
+
+.item p {
+    font-size: 15px;
+    margin:8px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.item h3 {
+    font-size: 20px;
+}
+
+span, h1 {
+    color:#004861;
+    font-family: 'Roboto', sans-serif;
+}
+
+input, button {
+    border-radius: 5px;
+}
+
+.campo, #convidado, #convidado1 {
+    margin-bottom: 1em;
+}
+
+.campo label, #convidado label, #convidado1 label{
+    margin-bottom: 0.2em;
+    color:#004861;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.campo input[type="text"], #convidado input[type="text"], #convidado1 input[type="text"] {
+    padding: 0.2em;
+    border: 1px solid #004861;
+    box-shadow: 2px 2px 2px #1b2a2e;
+    display: block;
+}
+
+.campo select option, #convidado select option , #convidado1 select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, #convidado input:focus, #convidado select:focus , #convidado1 input:focus, #convidado1 select:focus {
+    background: white;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #004861;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+    box-shadow:  2px 2px 2px #1b2a2e;
+    text-shadow: 1px 1px 1px #1b2a2e;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.botao:hover {
+    box-shadow: inset 2px 2px 2px #1b2a2e;
+    text-shadow: none;
+}
+
+form {
+    width: 30%;
+    height: 319px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+.texto {
+    width: 35%;
+    float: left;
+}
+#oi {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: #004861;
+    box-shadow: 2px 2px 5px 5px #0000001f;
+    border: none;
+
+}
+
+.voltar {
+    font-size: 1.2em;
+    background: #004861;
+    border: 0;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    color: #ffffff;
+    padding: 0.3em 0.9em;
+    box-shadow:  2px 2px 2px #1b2a2e;
+    text-shadow: 1px 1px 1px #1b2a2e;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.voltar:hover {
+    box-shadow: inset 2px 2px 2px #1b2a2e;
+    text-shadow: none;
+}
+
+@media screen and (max-width: 1025px) {
+    .item, form {
+        width: 53%;
+        height: 390px;
+        margin-left: 250px;
+    }
+    .item p, .campo label, #convidado label, #convidado1 label {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .texto {
+        width: 53%;
+        height: 260px;
+        margin-left: 250px;
+    }
+    span {
+        text-align: center;
+    }
+    .campo input[type="text"] {
+        margin-left: 180px;
+    }
+    .botao {
+        margin-left: 150px;
+    }
+    #oi {
+        margin-left: 130px;
+        text-align: center;
+        font-size:20px ;
+    }
+    header {
+        width: 100%;
+        height: 1240px;
+        background-color: #f8f9fb;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .item, form {
+        width: 53%;
+        height: 330px;
+        margin-left: 190px;
+}
+    .item p, .campo label, #convidado label, #convidado1 label {
+    font-size: 15px;
+    text-align: center;
+    }
+    .texto {
+        width: 53%;
+        height: 260px;
+        margin-left: 190px;
+    }
+    
+    .campo input[type="text"] {
+        margin-left: 120px;
+    }
+    .botao {
+        margin-left: 110px;
+    }
+
+    #oi {
+        margin-left: 90px;
+        text-align: center;
+        font-size:15px ;
+    }
+    .title {
+        width: 100%;
+        height: 200px;
+    }
+    .title h1,h2 {
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+     h2 span {
+        color:#004861;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    header {
+        width: 100%;
+        height: 1100px;
+    }  
+    @media screen and (max-width: 600px) {
+        nav {
+            height: 50px;
+        }
+        .title {
+            height: 130px;
+        }
+        h2 span {
+            color:#004861;
+            font-size: 16px;
+        }
+    
+        h1 {
+            font-size: 24px;
+        }
+        
+        .item, form, .texto {
+            width: 53%;
+            height: 330px;
+            margin-left: 100px;
+        }
+        .item p {
+            font-size: 12px;
+        }
+        .campo input[type="text"] {
+            margin-left: 20px;
+    }
+        .botao, .voltar {
+            margin-left: 5px;
+        }
+        #oi {
+            width: 100%;
+            margin-left: 1px;
+            text-align: center;
+            font-size:15px ;
+}
+    }
+}
+}
